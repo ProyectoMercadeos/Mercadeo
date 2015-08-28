@@ -20,7 +20,7 @@
 				<tr>
 					<th>Nombre</th>
 					<th>Fk_localidad</th>
-					<th>Telfono</th>
+					<th>Telefono</th>
 					<th>Direccion</th>
 					<th>Correo</th>
 					<th>Action</th>
