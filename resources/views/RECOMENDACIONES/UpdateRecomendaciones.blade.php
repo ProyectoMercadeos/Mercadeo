@@ -8,7 +8,7 @@
 	    	{!! Form::hidden('id', $Recomendaciones->id) !!}
 
 	    	<div class="form-group">
-	    		{!! Form::label('descripcion', 'Descripcion') !!}
+	    		{!! Form::label('full_descripcion', 'Descripcion') !!}
 	    		{!! Form::text('Descripcion', null, ['class' => 'form-control', 'required' => 'required']) !!}
 	    	</div>	
 	    	<div class="form-group">
