@@ -42,7 +42,7 @@ class EmpresasController extends Controller {
 		//
 		$Empresas = new Empresas;
 		$Empresas->Nombre= $request->Nombre;
-		$Empresas->Fk_localidad= $request->Fk_localidad;
+		$Empresas->Fk_localidad = $request->Fk_localidad;
 		$Empresas->Telefono= $request->Telefono;
 		$Empresas->Correo= $request->Correo;
 		$Empresas->Direccion= $request->Direccion;

@@ -100,7 +100,7 @@ class CiudadesController extends Controller {
 	
 	public function search(Request $request)
 	{
-		$Ciudades = Ciudades::where('Nombre_ciudad','like','%'.$request->Nombre_ciudades.'%')->get();
+		$Ciudades = Ciudades::where('Nombre_ciudad','like','%'.$request->Nombre_ciudad.'%')->get();
 		return \View::make('CIUDADES/listCiudades',compact('Ciudades'));
 	}
 

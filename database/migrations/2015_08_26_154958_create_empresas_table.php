@@ -19,7 +19,8 @@ class CreateEmpresasTable extends Migration {
 			$table->string('Telefono');
 			$table->string('Direccion');
 			$table->string('Nombre');
-			$table->string('Fk_loacalidad');
+			$table->string('Fk_localidad');
+			
 			$table->timestamps();
 		});
 	}

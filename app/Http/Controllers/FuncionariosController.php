@@ -87,7 +87,7 @@ class FuncionariosController extends Controller {
 		return redirect('Funcionarios');
 	}
 	public function search(Request $request){
-		$Funcionarios = Funcionarios::where('Nombre','like','%'.$request->Nombres.'%')->get();
+		$Funcionarios = Funcionarios::where('Nombre','like','%'.$request->Nombre.'%')->get();
 		return \View::make('Funcionarios/listFuncionarios',compact('Funcionarios'));
 	}
 	/**
